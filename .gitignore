@@ -2,7 +2,7 @@
 ### Java template
 # Compiled class file
 *.class
-
+*.iml
 # Log file
 *.log
 
@@ -24,3 +24,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .idea/*
+/my-manager/my-manager.iml
+/my-common/my-common.iml
+/my-dao/my-dao.iml
+/my-domain/my-domain.iml
+/my-service/my-service.iml
+/my-web/my-web.iml
+/mybatis-generator/mybatis-generator.iml
+/my-test-tool/.mvn/
+/my-test-tool/mvnw
+/my-test-tool/mvnw.cmd

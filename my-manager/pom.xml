@@ -9,17 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>my-dao</artifactId>
+    <artifactId>my-manager</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.xavier.note</groupId>
-            <artifactId>my-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
-    </dependencies>
+
 </project>
