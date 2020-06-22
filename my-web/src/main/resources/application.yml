@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+  #数据库相关配置
+  datasource:
+    hikari:
+      connectionTimeout: 30000
+      validationTimeout: 30000
+      idleTimeout: 30000
+      maxLifetime: 60000
+      maximumPoolSize: 20
+  servlet:
+    multipart:
+      max-request-size: 1000MB
+      max-file-size: 200MB
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
